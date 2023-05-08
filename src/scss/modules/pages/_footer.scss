@@ -1,0 +1,39 @@
+.footer{
+    margin-top: 10%;
+    
+    background-color: $color-footer;
+    height: 50vh;
+    width: 100%;
+}
+.footer{
+    h1{
+        padding-top: 50px;
+        margin-bottom: 50px;
+        letter-spacing: 10px;
+    }
+    p{
+        padding-left: 11%;
+        padding-right: 11%;
+    }
+}
+.social-media{
+    margin-top: 40px; 
+        
+}
+.social-media {
+    i{
+       font-size: 40px;
+       margin-left: 20px;
+       color: $color-icons;
+    }
+}
+/*COPYRIGHT*/
+.copyright{
+    width: 100%;
+    height: 10vh;
+    background-color: $color-copyright;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
