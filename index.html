@@ -1,18 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./public/css/app.css">
-    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/attribution.js">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./public/css/app.css">
+  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/attribution.js">
 </head>
+
 <body>
-   
+  <header class="d-lg-flex justify-content-lg-center align-content-center text-light">
+    <!--navbar-->
+    <nav id="nav">
+      <ul class="nav1 d-lg-flex justify-content-around align-items-center border-bottom border-top">
+      
+        <li class="list-unstyled p-3">Home</li>
+        <li class="list-unstyled p-3">ABOUT US</li>
+        <li class="list-unstyled p-3">MENU LIST</li>
+        <li class="list-unstyled p-3">TEAM</li>
+      </ul>
+      <div><img class="logo px-5" src="./public/images/logo.png" alt=""></div>
+      <ul id="ul1" class=" nav1 d-lg-flex justify-content-around align-items-center border-bottom border-top ">
+        <li class="list-unstyled p-3">RESERVATION</li>
+        <li class="list-unstyled p-3">BLOG</li>
+        <li class="list-unstyled p-3">TESTIMONALIS</li>
+        <li class="list-unstyled p-3">CONTACT US</li>
+      </ul>
+    </nav>
+    <!--end navbar-->
+    <!--text-baground-header-->
+    <div class="text1">
+      <h1>Whatever your occasion,<br><span>taste</span> makes it one<br>to remember!</h1>
+      <div class="baground-btns">
+        <a class="btn1" href="">PURCHASE THEME</a>
+        <a href="">learn more</a>
+      </div>
+    </div>
+  </header>
+  <!--end header-->
+  <!--start section 1-->
+  <section id="sect1">
+    <div id="container1">
+      <img id="boxlt" src="./public/images/box-left-top.png" alt="">
+      <img id="boxrt" src="./public/images/box-right-top.png" alt="">
+      <img id="boxbl" src="./public/images/box-bottom-left.png" alt="">
+      <img id="boxbr" src="./public/images/box-bottom_right.png" alt="">
+      <div class="text2">
+        <h1>Our <span>story</span></h1>
+        <div class="decorrlinee"><img src="./public/images/decoration_line.png" alt=""></div>
+        <div class="para1">
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio incidunt<br>facere dolorem exercitationem
+            dicta hic cumqueconsectetur iste<br> sunt placeat atque rationearchitecto iusto sit quibusdam<br>labore ad,
+            nulla praesentium necessitatibus porro ex eius at <br>Lorem ipsum dolor sit amet consectetur, adipisicing
+            elit. Perferendis, deleniti..<br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odio
+            incidunt<br>Lorem ipsum dolor sit.</p>
+        </div>
+        <h1>Our <span> Menu list</span></h1>
+        <div class="decorrlinee"><img src="./public/images/decoration_line.png" alt=""></div>
+      </div>
+      
+      </div>
+    <!--end section 1-->
+  </section>
+  <!--start section 2-->
+  <section id="sect2">
+    <div id="ourchefs">
+      <h1>Meet<span> Our chef</span></h1>
+      <div class="decorrlinee"><img src="./public/images/decoration_line.png" alt=""></div>
+      <div class="chefs">
+        <div><img class="chef1 border-bottom" src="./public/images/chef1.png" alt="">
+          <h5 class="text-light text-center">oussama lkaoun</h5>
+        </div>
+        <div><img class="chef2 border-bottom" src="./public/images/chef2.png" alt="">
+          <h5 class="text-light text-center">nassim lmharmch</h5>
+        </div>
+        <div><img class="chef3 border-bottom" src="./public/images/chef3.png" alt="">
+          <h5 class="text-light text-center">amine dakham</h5>
+        </div>
+        <div><img class="chef4 border-bottom" src="./public/images/chef4.png" alt="">
+          <h5 class="text-light text-center">mehdi faritias</h5>
+        </div>
+      </div>
+    </div>
+    <!--end section 2-->
+  </section>
+  <!--start section 3-->
+  <section id="sect3">
+    <div id="container2">
+      <img id="boxlt1" src="./public/images/box-left-top.png" alt="">
+      <img id="boxrt1" src="./public/images/box-right-top.png" alt="">
+      <img id="boxbl1" src="./public/images/box-bottom-left.png" alt="">
+      <img id="boxbr1" src="./public/images/box-bottom_right.png" alt="">
+      <h1>Book<span>your table</table></span></h1>
+      <div class="decorrlinee"><img src="./public/images/decoration_line.png" alt=""></div>
+      <div class="inputbody">
+        <div>
+          <p id="para2">for any query please call us at:+91-254852545</p>
+          <!--input-->
+          <div class="inputs8">
+            <div class="inputs4">
+              <input type="text" placeholder="Enter Full name">
+              <input type="number" placeholder="Phone number">
+              <input type="text" placeholder="Date">
+              <select class="form-select select1" aria-label="Default select example">
+                <option selected>occasion</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="inputs4">
+              <input type="text" placeholder="Enter id">
+              <select class="form-select select1" aria-label="Default select example">
+                <option selected>No of a person</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+              <input type="text" placeholder="Time">
+              <select class="form-select select1" aria-label="Default select example">
+                <option selected>cuisine</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+          <!--end input-->
+          <!--btn-->
+          <div class="baground-btns">
+            <a class="btn1" href="">Book now</a>
+          </div>
 
+        </div>
+      </div>
+      <!--partie 2 in section 3-->
+      <div class="Ourblog">
+        <div class="decorrlinee">
+          <h1>Our<span>Blog</span></h1>
+          <img src="./public/images/decoration_line.png" alt="">
+        </div>
+        <div class="blogs">
+          <div class="imageblog"><img src="./public/images/blog_img1.jpg" alt="">
+            <h5>lorem,ipsum</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere<br>quaerat eaque alias reiciendis.</p>
+            <div class="caro1">
+              <p>12april2017/15comments/10likes</p>
+            </div>
+          </div>
+          <div class="imageblog">
+            <img src="./public/images/blog_img2.jpg" alt="">
+            <h5>lorem,ipsum</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere<br>quaerat eaque alias reiciendis.</p>
+            <div class="caro1">
+              <p>12april2017/15comments/10likes</p>
+            </div>
+          </div>
+        </div>
+        <div class="baground-btns">
+          <a class="btn1" href="">KNOW MORE</a>
+        </div>
+        </div>
+  </section>
+  <!--end section 3-->
+  <!--start SECTION CLIENT Testimonials- -->
+  <div class="client">
+    <div class="title-client pt-7 text-center">
+      <h1><span>CLIENT</span> Testimonials</h1>
+      <img src="./public/images/decoration_line.png" alt="">
+    </div>
+    <div class="box-client d-flex gap-10 container">
+      <div class="box-2 mt-5  d-flex justify-content-center align-items-center ">
 
+        <div class="img-client">
+          <img src="./public/images/testimonial1.jpg" alt="">
+        </div>
+        <div class="para-client ms-4 p-2">
+          <h3 class="text-white">Lorem ipsum</h3><br>
+          <span>Manager</span><br>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus labore nesciunt
+            repellat modi tenetur odio.</p>
 
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>  
+        </div>
+      </div>
+      <div class="box-2 revers mt-5  d-flex justify-content-center align-items-center">
+
+        <div class="para-client ms-4 p-2">
+          <h3 class="text-white">Lorem ipsum</h3><br>
+          <span>Manager</span><br>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus labore nesciunt
+            repellat modi tenetur odio.</p>
+
+        </div>
+        <div class="img-client ms-4">
+          <img src="./public/images/testimonial1.jpg" alt="">
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--END SECTION CLIENT Testimonials--->
+  <!--START SECTION OUR CONTACTS-->
+  <div class="our-contacts">
+    <div>
+      <div class="title-contacts pt-7 text-center">
+        <h1><span>Our</span> Contacts</h1>
+        <img src="./public/images/decoration_line.png" alt="">
+
+        <div>
+          <div class="location1 text-center">
+            <i class="fa-solid fa-location-dot"></i>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing<br>elit. Necessitatibus quam nulla facere accusantium.
+            </p>
+          </div>
+          <div class="phone1 text-center">
+            <i class="fa-solid fa-phone"></i>
+            <p>+91-254852545</p>
+          </div>
+          <div class="email1 text-center">
+            <i class="fa-solid fa-envelope"></i>
+            <p>abc@abc.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--START FOOTER-->
+  <footer class="footer  ">
+    <div class="container box-footer d-flex justify-content-center gap-5 align-items-start">
+
+      <div class="about-ftr">
+        <h3>ABOUT US</h3>
+        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis rem cumque, doloribus deleniti
+          libero velit ab sunt sapiente maxime expedita ipsa. Fugiat quisquam cupiditate repudiandae. Nobis, suscipit
+          quasi. Quae, placeat.</p><br>
+        <a class="text-decoration-none text-white" href=""><i class="fa-brands fa-facebook-f"></i></a>
+        <a class="text-decoration-none text-white" href=""><i class="fa-brands fa-google-plus-g"></i></a>
+        <a class="text-decoration-none text-white" href=""><i class="fa-brands fa-pinterest-p"></i></a>
+        <a class="text-decoration-none text-white" href=""><i class="fa-brands fa-linkedin-in"></i></a>
+
+      </div>
+      <div class="insta-ftr">
+        <div class="img-insta">
+          <h3>INSTAGRAM</h3>
+          <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+          <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+          <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+          <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+        </div>
+        <div class="img-insta">
+          <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+          <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+          <img src="./public/images/instragram_gallery_img1.jpg" alt="">
+          <img src="./public/images/instragram_gallery_img2.jpg" alt="">
+        </div>
+      </div>
+      <div class="tags-ftr ">
+        <h3>POPULAR TAGS</h3>
+        <div class="tags">
+
+          <a href="#">Restaurant</a> <a href="#">Responsive Deseign</a> <a href="#">Hotel</a>
+          <br>
+          <a href="#">Blog Section</a> <a href="#">Seo</a> <a href="#">Cuisine</a>
+          <br>
+          <a href="#">Graphic</a> <a href="#">Food</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--END FOOTER-->
+  <div class="end"></div>
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
+
 </html>
